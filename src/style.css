@@ -1,0 +1,86 @@
+body {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+
+  background: linear-gradient(
+    243deg,
+    rgb(255, 253, 221) 13.4%,
+    rgb(248, 215, 215) 82.1%
+  );
+}
+h1,
+h2,
+h3 {
+  text-align: left;
+  margin: 5px;
+  color: #45171d;
+}
+h2 {
+  font-weight: lighter;
+}
+h3 {
+  font-size: 15px;
+}
+.fa-sun {
+  font-size: 40px;
+  color: #ff9a3c;
+}
+.container {
+  display: block;
+  margin: 5% 25%;
+  width: 760px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #dedede;
+  opacity: 70%;
+  background-image: url("https://images.pexels.com/photos/72473/pexels-photo-72473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+#sub {
+  padding: 4px;
+  margin: 20px 5px;
+  height: 30px;
+  border: 1px transparent solid;
+}
+.day-name {
+  text-align: center;
+  font-weight: bold;
+}
+.search-wth {
+  padding: 4px;
+  margin: 20px 5px;
+  height: 30px;
+  border: 1px transparent solid;
+}
+.day {
+  margin: 5px;
+  text-align: center;
+  color: #fff;
+}
+.today {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  color: #45171d;
+}
+.fa-droplet,
+.fa-wind {
+  font-size: 12px;
+}
+.fa-cloud {
+  color: grey;
+  font-size: 40px;
+}
+.btn-primary {
+  color: grey;
+  background-color: white;
+  padding: 4px 10px;
+  border: 1px grey solid;
+  transition: all 0.5s ease;
+}
+.btn-primary:hover {
+  background-color: #45171d;
+  border: none;
+}
+#description {
+  text-transform: capitalize;
+}

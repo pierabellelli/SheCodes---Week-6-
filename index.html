@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6284290218.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>WeatherApp 😎</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Capaccio</h1>
+          <h2 id="temperature">13°</h2>
+          <h3 id="date-time">Saturday 9 March 2023</h3>
+         <p id="lat-long"></p>
+        </div>
+
+        <div class="col">
+          <form id="search-form">
+          <input
+            class="search-wth"
+            size="28"
+            type="search"
+            name="Go"
+            id="search-weather"
+            placeholder="Write your city here"/>
+          </div>
+          
+       
+
+            <div class="col"><input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"
+                id="sub"
+              />
+            </div> 
+            </div>
+      </form>
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 today">
+          <h3 class="day-name">Today</h3>
+          <i class="fa-solid fa-sun"></i>
+          <p id="description">Sunny</p>
+          <p>
+            <span id="wind"><i class="fa-solid fa-wind"></i></span> 10 km/h |
+            <span id ="humidty"><i class="fa-solid fa-droplet"></i></span> Humidity: 66°C
+          </p>
+        </div>
+        <div class="col-4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col px-4 day">
+          <h3 class="day-name">Tomorrow</h3>
+          <i class="fa-solid fa-sun"></i>
+          <p>Sunny</p>
+          <p>8° | 14°</p>
+        </div>
+        <div class="col px-4 day">
+          <h3 class="day-name">Monday</h3>
+          <i class="fa-solid fa-cloud"></i>
+          <p>Sunny</p>
+          <p>7° | 13°</p>
+        </div>
+        <div class="col px-4 day">
+          <h3 class="day-name">Tuesday</h3>
+          <i class="fa-solid fa-cloud"></i>
+          <p>Sunny</p>
+          <p>6° | 13°</p>
+        </div>
+</div>
+    </div>
+  </div>
+    <footer></footer>
+    <script src="src/index2.js"></script>
+  </body>
+</html>
